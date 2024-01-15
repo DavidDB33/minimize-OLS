@@ -8,7 +8,7 @@ Define the residuals where B are the linear coefficients:
 
 Define the function to optimize (the least squared error) as the quadratic of the residuals. Since it is a columnar row, multiply it this way to get an 1 by 1 matrix (a scalar).
 `S(B) = (Y - XB)'(Y - XB)`
-Note that the symbol `A'` in `A` is the transpose.
+Note the symbol `A'` is the matrix `A` transposed.
 
 Now derive w.r.t. B and solve when equal to 0.
 ```
